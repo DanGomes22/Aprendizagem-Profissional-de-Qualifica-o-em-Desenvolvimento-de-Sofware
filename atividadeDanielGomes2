@@ -1,0 +1,17 @@
+/*Inserindo Registro a Tabela Funcionario*/
+insert into `bd_caso_estudo_vendas`.`tb_func`(func_cod, func_depto, func_nome< func_cpf)
+values
+(1, 1, 'Ioland', '99999999999'),
+(2, 2, 'Martin', '88888888888'),
+(3, 3, 'Hudson', '88888888888'),
+(4, 4, 'Cesar', '77777777777'),
+(5, 5, 'Carlos', '66666666666');
+insert into `bd_caso_estudo_vendas`.`tb_func`(forn_cod, forn_name, forn_tel)
+values
+(1, 'Fornecedor um', '11111111111'),
+(2, `fornecedor dois`, `112222222`);
+insert into `bd_caso_estudo_vendas`.`tb_func`(prod_cod, prod_forn_cod, prod_desc, prod_vlr)
+values
+(1,1,'produto um',10),
+(2,2,'produto dois',20),
+(3,1,'produto tres',30);
