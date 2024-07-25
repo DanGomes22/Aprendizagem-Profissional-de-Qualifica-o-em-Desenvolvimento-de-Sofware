@@ -1,0 +1,16 @@
+insert into `bd_caso_estudo_vendas`.`tb_cli`(cli_cod, cli_nome, cli_cpf, cli_end_rua, cli_end_num, cli_end_bairro, cli_end_cep)
+values
+(1, 'Maria das Dores', '888888888', 'Rua 7 de Setembro', '2024', 'Centro', '70000000');
+se4lect + from tb_cli;
+insert into `bd_caso_estudo_vendas`.`tb_cli_tel`(tel_cod, tel_cli_cod, tel_num)
+values
+(1,1,'1122223333');
+insert into `bd_caso_estudo_vendas`.`tb_compra`(compra_cod, compra_cli_cod, compra_func_cod, compra_qtd_cod)
+values
+(1,1,1,2);
+insert into `bd_caso_estudo_vendas`.`tb_prod_comp`(prod_cod, compra_cod)
+values
+(1,1),
+(2,1);
+
+select + from tb_prod_comp;
