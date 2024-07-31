@@ -4,3 +4,8 @@ create user 'tiago.lima'@'localhost' identified by'123456';
 create user 'luane.gabrielly'@'localhost' identified by'123456';
 create user 'izabella.oliveira'@'localhost' identified by'123456';
 create user 'lara.rodrigues'@'localhost' identified by'123456';
+
+/*Aplicando permissao de consulta a todos os arquivos/bancos no servidor*/
+grant select
+on *.*
+to DanielGomes@localhost;
