@@ -14,3 +14,34 @@ to DanielGomes@localhost;
 grant insert
 on bd_caso_estudo_vendas.*
 to DanielGomes@localhost;
+
+/*Aplicando permissao de banco de inserçao em tabela definida*/
+grant insert
+on bd_caso_estudo_vendas.tb_prod
+to DanielGomes@localhost;
+
+grant
+	select(cli_cod,cli_nome,cli_cpf),
+    update(cli_end_cep)
+on bd_caso_estudo_vendas.tb_cli
+to DanielGomes@localhost;
+
+revoke insert, update
+on`bd_caso_estudo_vendas`.`tb_func`
+from DanielGomes@localhost;
+
+grant insert, update, delete
+on `bd_caso_estudo_vendas`.`tb_func`
+to DanielGomes@localhost;
+
+grant delete
+on `bd_caso_estudo_vendas`.`tb_func`
+to DanielGomes@localhost;
+
+revoke select
+on `bd_caso_estudo_vendas`.`tb_func`
+from DanielGomes@localhost;
+
+grant insert
+on `bd_caso_estudo_vendas`.`tb_func`
+to DanielGomes@localhost;
