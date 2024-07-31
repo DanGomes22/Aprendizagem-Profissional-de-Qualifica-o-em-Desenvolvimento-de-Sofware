@@ -9,3 +9,8 @@ create user 'lara.rodrigues'@'localhost' identified by'123456';
 grant select
 on *.*
 to DanielGomes@localhost;
+
+/*Aplicando permissao de inserçao em todas as tabelas do banco*/
+grant insert
+on bd_caso_estudo_vendas.*
+to DanielGomes@localhost;
