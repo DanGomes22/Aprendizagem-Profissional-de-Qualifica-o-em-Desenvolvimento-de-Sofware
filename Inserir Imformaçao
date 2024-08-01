@@ -1,0 +1,6 @@
+/*Inserir Imformaçao do cliente*/
+insert into `bd_caso_estudo_vendas`,`tb_cli`
+(`cli_cod`,`cli_nome`,`cli_cpf`,`cli_end_rua`,`cli_end_nome`,`cli_end_bairro`,`cli_end_cep`)
+values
+('4','Cuca Beludo','0700000','Rua dos Doido','006','Norte','85555555'),
+('5','Paula Tejando','0700001','Rua dos Doido','007','Norte','85555556');
