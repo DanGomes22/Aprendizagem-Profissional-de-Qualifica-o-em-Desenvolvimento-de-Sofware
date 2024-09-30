@@ -1,0 +1,899 @@
+ <!-- Index.html -->
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <title>Mundo Confeitado</title>
+    <style>
+        .header {
+            background-color: #000000; /* Fundo preto */
+            padding: 20px; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Centraliza o texto no cabeçalho */
+        }
+        
+        body {
+            background-color: #464444; 
+            color: #f8c8dc;
+        }
+        
+        .navbar {
+            background-color: #f8c8dc;
+            min-height: 80px; 
+            padding-top: 15px; 
+            padding-bottom: 15px; 
+        }
+        
+        .navbar-brand {
+            color: rgb(46, 44, 44) !important;
+            font-size: 1.5rem; 
+            font-weight: bold; /* Torna o texto da marca em negrito */
+        }
+        
+        .navbar-nav {
+            display: flex; /* Exibe os links em linha */
+            justify-content: center; /* Centraliza os links */
+            width: 100%; /* Ocupa toda a largura disponível */
+        }
+
+        .nav-link {
+            color: rgb(46, 44, 44) !important;
+            font-size: 1.2rem; 
+            text-align: center; /* Centraliza o texto dos links da navbar */
+            font-weight: bold; /* Torna o texto dos links em negrito */
+        }
+        
+        .nav-link:hover {
+            color: #fff !important;
+        }
+        
+        .card {
+            background-color: rgb(46, 44, 44);
+            color: #f8c8dc;
+            border: 1px solid #f8c8dc;
+        }
+        
+        .btn, .card-header {
+            background-color: #f8c8dc;
+            color: #000;
+        }
+        
+        .card-footer {
+            background-color: #f8c8dc;
+            color: #000;
+        }
+        
+        .carousel-item img {
+            height: 500px;
+            object-fit: cover;
+        }
+    
+        footer {
+            background-color: #f8c8dc; 
+            color: #000; 
+            text-align: center; 
+            padding: 40px 20px; 
+            min-height: 150px; 
+        }
+        
+        footer p {
+            margin: 0;
+        }
+        
+        footer a {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header"> <!-- Adicione a classe 'header' aqui -->
+        <div class="container-fluid text-center">
+            <img src="img/logo 2.png" alt="Logo" width="180" height="170" class="d-inline-block"> 
+        </div>
+        <h1>Mundo Confeitado</h1>
+        <p>Delícias que adoçam sua vida</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <strong></strong> 
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link" href="Bolos.html">Bolos</a>
+                    <a class="nav-link" href="Doces.html">Doces</a>
+                    <a class="nav-link" href="Ofertas.html">Ofertas</a>
+                    <a class="nav-link" href="Contato.html">Contato</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- O restante do código permanece o mesmo -->
+    
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/Bolosabanner2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/post_thumbnail-2f879fc2c227e433a998d30b9c2d69f0.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/bolocheiodemorango.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <div class="card text-center mt-4">
+        <div class="card-body">
+            <h5 class="card-title">Bem Vindos à Confeitaria Mundo Confeitado</h5>
+            <p class="card-text">Nós da Mundo Confeitado, acreditamos que nada supera o sabor de um doce feito com carinho, como aqueles que saem da cozinha da vovó. Cada receita nossa é preparada com ingredientes selecionados e aquele toque caseiro que faz você se sentir em casa.</p>
+        </div>
+    </div>
+
+    <div class="card text-center mt-4">
+        <div class="card-body">
+            <h5 class="card-title">Sobre Nós</h5>
+            <p class="card-text">Nossa história começa há muitos anos, com um jovem chamada Bruno, apaixonado pela magia dos sabores e encantada pelo poder que um simples doce tem de trazer alegria.
+                Tudo começou na pequena cozinha de sua avó, uma confeiteira de mão cheia que ensinou o Bruno os segredos das receitas que passavam de geração em geração. Porém, Bruno queria ir além. Sonhava em criar um mundo onde os doces fossem mais do que simples sobremesas — onde cada mordida pudesse transportar as pessoas para momentos especiais, despertar memórias e criar novas histórias.
+                E foi assim que nasceu o Mundo Confeitado. Com uma mistura de tradição e inovação, Bruno abriu as portas de sua confeitaria, um lugar cheio de cores, aromas e, claro, sabores inesquecíveis. A proposta era simples: cada doce deveria ser uma experiência única, seja um bolo recheado de carinho, um cupcake divertido ou uma torta capaz de aquecer o coração.
+                Logo, o Mundo Confeitado se tornou famoso por sua variedade de delícias artesanais, cuidadosamente preparadas com ingredientes frescos e técnicas apuradas. Além de serem irresistíveis ao paladar, os doces encantavam pelos detalhes, como se cada um deles fosse uma pequena obra de arte.
+                Mas o que torna o Mundo Confeitado verdadeiramente especial é o espírito de acolhimento que permeia o lugar. Bruno sempre acreditou que a confeitaria é uma ponte entre as pessoas, uma forma de criar laços e espalhar felicidade. Por isso, cada cliente que entra no Mundo Confeitado é recebido como parte da família, com um sorriso e a certeza de que encontrará o doce perfeito para o seu momento.</p>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/Bolodecenoura.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Confira nossos Bolos!</h5>
+              <p class="card-text">Na Mundo Confeitado, cada bolo é feito com carinho e atenção aos mínimos detalhes. Nossas receitas combinam ingredientes frescos, sabores irresistíveis e aquele toque caseiro que faz toda a diferença. Temos uma grande variedade de bolos para todos os gostos, desde os clássicos até os mais inovadores. Seja para uma comemoração especial ou apenas para adoçar o seu dia, nossos bolos são preparados para trazer sorrisos e momentos inesquecíveis. Confira nossas opções e escolha o bolo perfeito para você!</p>
+              <a href="Bolos.html" class="btn btn-primary">Confira!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/docesbrigadero.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Confira nossos Doces!</h5>
+              <p class="card-text">Seja qual for a ocasião, nossos doces são o toque final perfeito para transformar qualquer momento em uma celebração. Na Mundo Confeitado, cada doce é preparado com ingredientes selecionados e uma pitada de amor, resultando em sabores que encantam e surpreendem. Desde brigadeiros tradicionais até criações mais sofisticadas, temos uma variedade deliciosa que agrada a todos os paladares. Experimente nossas delícias e descubra o sabor especial que só a Mundo Confeitado pode oferecer!</p>
+              <a href="Doces.html" class="btn btn-primary">Confira!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/kit festa.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Veja nossas Ofertas!</h5>
+              <p class="card-text">Não perca a chance de adoçar seu dia com nossas ofertas especiais! Na Mundo Confeitado, estamos sempre trazendo novidades e promoções irresistíveis para você aproveitar o melhor da confeitaria com preços incríveis. Sejam bolos, doces ou produtos sazonais, aqui você encontra qualidade e sabor incomparáveis com descontos que vão te surpreender. Fique de olho e garanta suas delícias favoritas por um preço ainda mais doce!</p>
+              <div class="d-grid gap-2 d-md-block">
+                <a href="Ofertas.html" class="btn btn-primary">Confira!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/confeiteiro.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Entre em Contato</h5>
+              <p class="card-text">Tem alguma dúvida, sugestão ou deseja fazer um pedido especial? Estamos aqui para ajudar! Na Mundo Confeitado, valorizamos a proximidade com nossos clientes. Entre em contato conosco e teremos o maior prazer em atender você. Seja para saber mais sobre nossos produtos, personalizar um bolo ou esclarecer qualquer questão, estamos a apenas uma mensagem de distância. Não hesite em nos procurar, pois seu doce momento começa aqui</p>
+              <a href="Contato.html" class="btn btn-primary">Clique Aqui</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <footer>
+        <p>&copy; 2024 Mundo Confeitado. Todos os direitos reservados.</p>
+        <a href="Contato.html">Política de Privacidade</a> | <a href="Contato.html">Termos de Serviço</a>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Bolos.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Confeitado</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #fce4ec; /* Fundo rosa bebê */
+            color: #000; /* Texto preto */
+        }
+        header {
+            background-color: #f8bbd0; /* Rosa bebê mais escuro para destaque */
+            color: #000;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #000; /* Preto para contraste */
+            padding: 15px 0;
+        }
+        nav a {
+            color: #fce4ec; /* Texto rosa bebê nos links */
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            color: #f8bbd0; /* Rosa mais claro no hover */
+            text-decoration: underline;
+        }
+        .banner {
+            background-image: url('SUA_IMAGEM_DE_BANNER.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+        .banner h1 {
+            font-size: 4rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            color: #fff;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .section-header h2 {
+            font-size: 2.5rem;
+            color: #000;
+        }
+        .section-header p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .grid-item {
+            text-align: center;
+        }
+        .grid-item img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .grid-item figcaption {
+            margin-top: 10px;
+            font-size: 1rem;
+            color: #333;
+        }
+        .ver-mais {
+            text-align: center;
+            margin: 20px 0 50px; /* Espaço entre o botão e o conteúdo acima */
+        }
+        .ver-mais button {
+            background-color: #000; /* Fundo preto */
+            color: #ff69b4; /* Texto rosa bebê */
+            padding: 15px 30px;
+            border: 2px solid #ff69b4; /* Borda rosa */
+            border-radius: 5px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+        .ver-mais button:hover {
+            background-color: #ff69b4; /* Fundo rosa no hover */
+            color: #000; /* Texto preto no hover */
+            border-color: #000; /* Borda preta no hover */
+        }
+        footer {
+            background-color: #000; /* Preto para o rodapé */
+            color: #fce4ec; /* Texto rosa bebê */
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer p, footer a {
+            margin-bottom: 10px;
+            color: #fce4ec;
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: #f8bbd0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container-fluid text-center">
+            <img src="img/logo 2.png" alt="Logo" width="180" height="170" class="d-inline-block"> 
+        </div>
+        <h1>Mundo Confeitado</h1>
+        <p>Delícias que adoçam sua vida</p>
+    </header>
+
+    <!-- Navegação -->
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="Bolos.html">Bolos</a>
+        <a href="Doces.html">Doces</a>
+        <a href="Ofertas.html">Ofertas</a>
+        <a href="Contato.html">Contato</a>
+    </nav>
+
+    <!-- Banner -->
+    <div class="banner">
+        <h1>Seja Bem-vindo à Nossa Sessão de Bolos</h1>
+    </div>
+
+    <!-- Seção de Bolos -->
+    <section id="bolos">
+        <div class="section-header">
+            <h2>Bolos Especiais</h2>
+            <p>Nossos bolos são preparados com ingredientes frescos e muito carinho.</p>
+        </div>
+        <div class="grid">
+            <figure class="grid-item">
+                <img src="img/ninho-com-nutella.jpeg" alt="Bolo de Leite Ninho com Nutella">
+                <figcaption>Bolo de Leite Ninho com Nutella</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <img src="img/bolodeoreoechcolatebranco.jpg" alt="Bolo de Oreo com Chocolate Branco">
+                <figcaption>Bolo de Oreo com Chocolate Branco</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <img src="img/Bolodecenoura2.jpg" alt="Bolo de Cenoura">
+                <figcaption>Bolo de Cenoura</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <img src="img/bolodebrigadeiri2.jpg" alt="Bolo de Brigadeiro">
+                <figcaption>Bolo de Brigadeiro</figcaption>
+            </figure>
+        </div>
+
+        <!-- Botão Ver Mais abaixo da seção de Bolos -->
+        <div class="ver-mais">
+            <button onclick="window.location.href='mais_bolos.html'">Ver Mais</button>
+        </div>
+    </section>
+
+    <!-- Seção de Cupcakes -->
+    <section id="cupcakes">
+        <div class="section-header">
+            <h2>Cupcakes Deliciosos</h2>
+            <p>Cupcakes fofinhos e decorados para todos os gostos.</p>
+        </div>
+        <div class="grid">
+            <figure class="grid-item">
+                <img src="img/Cupcakesdechocolate.jpg" alt="Cupcake de Chocolate">
+                <figcaption>Cupcake de Chocolate</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <img src="img/cupcake-de-baunilha2.jpg" alt="Cupcake de Baunilha">
+                <figcaption>Cupcake de Baunilha</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <img src="img/cu´pcakedemorango.jpg" alt="Cupcake de Morango">
+                <figcaption>Cupcake de Morango</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <img src="img/Cupcakes-de-limão2-siciliano.jpg" alt="Cupcake de Limão">
+                <figcaption>Cupcake de Limão</figcaption>
+            </figure>
+        </div>
+
+        <!-- Botão Ver Mais abaixo da seção de Cupcakes -->
+        <div class="ver-mais">
+            <button onclick="window.location.href='mais_cupcakes.html'">Ver Mais</button>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Mundo Confeitado. Todos os direitos reservados.</p>
+        <a href="Contato.html">Política de Privacidade</a> | <a href="Contato.html">Termos de Serviço</a>
+    </footer>
+</body>
+</html>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Doces.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Confeitado - Doces</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #fce4ec; /* Fundo rosa bebê */
+            color: #000; /* Texto preto */
+        }
+        header {
+            background-color: #f8bbd0; /* Rosa bebê mais escuro para destaque */
+            color: #000;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #000; /* Preto para contraste */
+            padding: 15px 0;
+        }
+        nav a {
+            color: #fce4ec; /* Texto rosa bebê nos links */
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            color: #f8bbd0; /* Rosa mais claro no hover */
+            text-decoration: underline;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .section-header h2 {
+            font-size: 2.5rem;
+            color: #000;
+        }
+        .section-header p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .grid-item {
+            text-align: center;
+        }
+        .grid-item img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .grid-item figcaption {
+            margin-top: 10px;
+            font-size: 1rem;
+            color: #333;
+        }
+        .ver-mais {
+            text-align: center;
+            margin: 20px 0 50px; /* Espaço entre o botão e o conteúdo acima */
+        }
+        .ver-mais button {
+            background-color: #000; /* Fundo preto */
+            color: #ff69b4; /* Texto rosa bebê */
+            padding: 15px 30px;
+            border: 2px solid #ff69b4; /* Borda rosa */
+            border-radius: 5px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+        .ver-mais button:hover {
+            background-color: #ff69b4; /* Fundo rosa no hover */
+            color: #000; /* Texto preto no hover */
+            border-color: #000; /* Borda preta no hover */
+        }
+        footer {
+            background-color: #000; /* Fundo preto para o rodapé */
+            color: #fce4ec; /* Texto rosa bebê */
+            text-align: center; /* Texto centralizado */
+            padding: 20px 0;
+        }
+        footer p, footer a {
+            margin-bottom: 10px;
+            color: #fce4ec;
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: #f8bbd0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container-fluid text-center">
+            <img src="img/logo 2.png" alt="Logo" width="180" height="170" class="d-inline-block"> 
+        </div>
+        <h1>Mundo Confeitado</h1>
+        <p>Delícias que adoçam sua vida</p>
+    </header>
+
+    <!-- Navegação -->
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="Bolos.html">Bolos</a>
+        <a href="Doces.html">Doces</a>
+        <a href="Ofertas.html">Ofertas</a>
+        <a href="Contato.html">Contato</a>
+    </nav>
+
+    <!-- Seção de Doces -->
+    <section id="doces">
+        <div class="section-header">
+            <h2>Doces Irresistíveis</h2>
+            <p>Descubra nossa seleção de doces que derretem na boca.</p>
+        </div>
+        <div class="grid">
+            <figure class="grid-item">
+                <img src="img/brigadeiro-gourmet.jpg" alt="Doce 1">
+                <figcaption>Brigadeiros</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <img src="img/trufas2.jpg" alt="Doce 2">
+                <figcaption>Trufas</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <img src="img/musse-de-mid-r-morango2.jpg" alt="Doce 3">
+                <figcaption>Mousses</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <img src="img/rosquinha-frita-receita2.jpg" alt="Doce 4">
+                <figcaption>Rosquinhas</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <img src="img/2-pao-mel-tentacao.jpg" alt="Doce 5">
+                <figcaption>Pão de Mel</figcaption>
+            </figure>
+            <figure class="grid-item">
+                <img src="img/2churros.jpg" alt="Doce 6">
+                <figcaption>Churros</figcaption>
+            </figure>
+        </div>
+
+        <!-- Botão Ver Mais abaixo da seção de Doces -->
+        <div class="ver-mais">
+            <button onclick="window.location.href='mais_doces.html'">Ver Mais Doces</button>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Mundo Confeitado. Todos os direitos reservados.</p>
+        <a href="Contato.html">Política de Privacidade</a> | <a href="Contato.html">Termos de Serviço</a>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Ofertas -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Ofertas - Mundo Confeitado</title>
+    <style>
+        body {
+            background-color: #464444; 
+            color: #f8c8dc;
+        }
+
+        .header {
+            background-color: #000000; /* Fundo do cabeçalho preto */
+            padding: 20px; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Centraliza o texto no cabeçalho */
+        }
+
+        .navbar {
+            background-color: #f8c8dc;
+            justify-content: center; /* Centraliza a navbar */
+        }
+
+        .navbar-nav {
+            display: flex; /* Garante que os links sejam exibidos em linha */
+            justify-content: center; /* Centraliza os itens da navbar */
+            text-align: center; /* Centraliza o texto dos itens da navbar */
+            width: 100%; /* Define a largura como 100% para garantir a centralização */
+        }
+
+        .nav-link {
+            font-weight: bold; /* Torna o texto em negrito */
+            color: #000; /* Define a cor das palavras da navbar como preta */
+        }
+
+        .offers {
+            background-color: #f8c8dc;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .footer {
+            background-color: #f8c8dc; 
+            color: #000; 
+            text-align: center; 
+            padding: 40px 20px; 
+        }
+        
+        footer p {
+            margin: 0;
+        }
+        
+        footer a {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header"> <!-- Classe 'header' já aplicada -->
+        <div class="container-fluid text-center">
+            <img src="img/logo 2.png" alt="Logo" width="180" height="170" class="d-inline-block"> 
+        </div>
+        <h1 class="text-center">Mundo Confeitado</h1> <!-- Centralizando o texto do título -->
+        <p class="text-center">Delícias que adoçam sua vida</p> <!-- Centralizando o texto do parágrafo -->
+    </header>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                    <a class="nav-link" href="Bolos.html">Bolos</a>
+                    <a class="nav-link" href="Doces.html">Doces</a>
+                    <a class="nav-link active" href="Ofertas.html">Ofertas</a>
+                    <a class="nav-link" href="Contato.html">Contato</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h2 class="text-center">Nossas Ofertas Especiais</h2>
+        <div class="offers">
+            <h4>Ofertas do Mês:</h4>
+            <ul>
+                <li>10% de desconto em todos os bolos de aniversário!</li>
+                <li>Na compra de 5 brigadeiros, leve 1 de graça!</li>
+            </ul>
+            <p class="text-center"><a href="Bolos.html" class="btn btn-primary">Confira Nossos Produtos!</a></p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Mundo Confeitado. Todos os direitos reservados.</p>
+        <a href="Contato.html">Política de Privacidade</a> | <a href="Contato.html">Termos de Serviço</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Contato-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Contato - Mundo Confeitado</title>
+    <style>
+        body {
+            background-color: #464444; 
+            color: #f8c8dc;
+        }
+        
+        .header {
+            background-color: #000000;
+            padding: 20px; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center; 
+        }
+
+        .navbar {
+            background-color: #f8c8dc;
+            justify-content: center; /* Centraliza os itens da navbar */
+        }
+
+        .nav-link {
+            font-weight: bold; /* Torna o texto em negrito */
+            color: #000; /* Define a cor das palavras da navbar como preta */
+        }
+
+        .contact-info {
+            background-color: #f8c8dc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .footer {
+            background-color: #f8c8dc; 
+            color: #000; 
+            text-align: center; 
+            padding: 40px 20px; 
+        }
+        
+        footer p {
+            margin: 0;
+        }
+        
+        footer a {
+            color: #000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="text-center"> <!-- Adicionando text-center aqui -->
+        <div class="container-fluid">
+            <img src="img/logo 2.png" alt="Logo" width="180" height="170" class="d-inline-block"> 
+        </div>
+        <h1>Mundo Confeitado</h1>
+        <p>Delícias que adoçam sua vida</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav"> <!-- Centralizando as palavras do navbar -->
+                <div class="navbar-nav text-center"> <!-- Adicionando text-center aqui -->
+                    <a class="nav-link" href="index.html">Inicio</a>
+                    <a class="nav-link" href="Bolos.html">Bolos</a>
+                    <a class="nav-link" href="Doces.html">Doces</a>
+                    <a class="nav-link" href="Ofertas.html">Ofertas</a>
+                    <a class="nav-link active" href="Contato.html">Contato</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h2 class="text-center">Entre em Contato Conosco</h2>
+        
+        <div class="contact-info mt-4">
+            <h4>Informações de Contato</h4>
+            <p style="color: #000;"><strong>Telefone:</strong> (11) 1234-5678</p>
+            <p style="color: #000;"><strong>Email:</strong> Confeitaria@mundoconfeitado.com.br</p>
+            <p style="color: #000;"><strong>Endereço:</strong> Av. das Castanheiras, 123, Aguas Claras - DF</p>
+        </div>
+
+        <form class="mt-4">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Mundo Confeitado. Todos os direitos reservados.</p>
+        <a href="Contato.html">Política de Privacidade</a> | <a href="Contato.html">Termos de Serviço</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
